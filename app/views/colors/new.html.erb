@@ -1,0 +1,8 @@
+<div class="boxy">
+	<h1>Black is boring. Suggest a color?</h1>
+	<%= simple_form_for @color do |f| %>
+	<%= f.input :hex, :label => "Hex #: " %>
+	<%= f.input :name, :label => "Color Name: " %>
+	<%= f.submit 'Create', :class => "btn-primary" %>
+	<% end %>
+</div>
