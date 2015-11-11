@@ -11,7 +11,6 @@ gem 'sass-rails', '~> 4.0.0'
 
 # Twitter Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -35,7 +34,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#Add simpleform
 gem 'simple_form'
+
+#Add bootstrap
+gem 'bootstrap-sass', '~> 3.3.5'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
